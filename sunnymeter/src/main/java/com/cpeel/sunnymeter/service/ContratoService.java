@@ -9,7 +9,6 @@ import java.util.UUID;
 
 @Service
 public class ContratoService {
-
     private final ContratoRepository contratoRepository;
 
     public ContratoService(ContratoRepository contratoRepository) {
@@ -18,20 +17,20 @@ public class ContratoService {
 
     public Contrato criarContrato(Contrato contrato) {
         contrato.setAtivo(true);
+        contrato.setDataInicio(System.currentTimeMillis());
         return contratoRepository.save(contrato);
     }
 
-    public Optional<Contrato> buscarContrato(UUID id) {
-        return contratoRepository.findById(id);
+    public Optional<Contrato> buscarContrato(UUID contratoUuid) {
+        return contratoRepository.findById(contratoUuid);
     }
 
-    public Contrato deletarContrato(UUID id) {
-        Optional<Contrato> contrato = contratoRepository.findById(id);
-        if (contrato.isPresent()) {
-            Contrato c = contrato.get();
-            c.setAtivo(false);
-            return contratoRepository.save(c);
-        }
-        return null;
+    public Contrato deletarContrato(UUID contratoUuid) {
+        return contratoRepository.findById(contratoUuid)
+            .map(contrato -> {
+                contrato.setAtivo(false);
+                return contratoRepository.save(contrato);
+            })
+            .orElse(null);
     }
 }

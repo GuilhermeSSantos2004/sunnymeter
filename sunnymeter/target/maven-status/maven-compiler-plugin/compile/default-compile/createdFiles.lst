@@ -1,5 +1,9 @@
 com/cpeel/sunnymeter/model/Cliente.class
+com/cpeel/sunnymeter/service/ConsumoService.class
+com/cpeel/sunnymeter/service/ProducaoService.class
 com/cpeel/sunnymeter/service/InstalacaoService.class
+com/cpeel/sunnymeter/model/Consumo.class
+com/cpeel/sunnymeter/controller/ConsumoController.class
 com/cpeel/sunnymeter/service/ContratoService.class
 com/cpeel/sunnymeter/repository/InstalacaoRepository.class
 com/cpeel/sunnymeter/controller/ClienteController.class
@@ -9,5 +13,9 @@ com/cpeel/sunnymeter/model/Instalacao.class
 com/cpeel/sunnymeter/model/Contrato.class
 com/cpeel/sunnymeter/controller/InstalacaoController.class
 com/cpeel/sunnymeter/repository/ContratoRepository.class
+com/cpeel/sunnymeter/model/Producao.class
 com/cpeel/sunnymeter/repository/ClienteRepository.class
+com/cpeel/sunnymeter/controller/ProducaoController.class
 com/cpeel/sunnymeter/controller/ContratoController.class
+com/cpeel/sunnymeter/repository/ConsumoRepository.class
+com/cpeel/sunnymeter/repository/ProducaoRepository.class

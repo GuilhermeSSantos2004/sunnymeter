@@ -23,18 +23,18 @@ public class ContratoController {
         return ResponseEntity.ok(contratoService.criarContrato(contrato));
     }
 
-    @GetMapping("/{id}")
-    public ResponseEntity<Contrato> buscarContrato(@PathVariable UUID id) {
-        Optional<Contrato> contrato = contratoService.buscarContrato(id);
+    @GetMapping("/{contratoUuid}")
+    public ResponseEntity<Contrato> buscarContrato(@PathVariable UUID contratoUuid) {
+        Optional<Contrato> contrato = contratoService.buscarContrato(contratoUuid);
         return contrato.map(ResponseEntity::ok).orElse(ResponseEntity.notFound().build());
     }
 
-    @DeleteMapping("/{id}")
-    public ResponseEntity<Contrato> deletarContrato(@PathVariable UUID id) {
-        Contrato deletado = contratoService.deletarContrato(id);
-        if (deletado != null) {
-            return ResponseEntity.ok(deletado);
+    @DeleteMapping("/{contratoUuid}")
+    public ResponseEntity<Contrato> deletarContrato(@PathVariable UUID contratoUuid) {
+        Contrato contrato = contratoService.deletarContrato(contratoUuid);
+        if (contrato == null) {
+            return ResponseEntity.notFound().build();
         }
-        return ResponseEntity.notFound().build();
+        return ResponseEntity.ok(contrato);
     }
 }
