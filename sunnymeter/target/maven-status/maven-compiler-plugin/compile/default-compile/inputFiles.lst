@@ -1,0 +1,9 @@
+/home/devops/go/src/github.com/GuilhermeSSantos2004/SunnyMeter/sunnymeter/src/main/java/com/cpeel/sunnymeter/service/ClienteService.java
+/home/devops/go/src/github.com/GuilhermeSSantos2004/SunnyMeter/sunnymeter/src/main/java/com/cpeel/sunnymeter/model/Contrato.java
+/home/devops/go/src/github.com/GuilhermeSSantos2004/SunnyMeter/sunnymeter/src/main/java/com/cpeel/sunnymeter/model/Cliente.java
+/home/devops/go/src/github.com/GuilhermeSSantos2004/SunnyMeter/sunnymeter/src/main/java/com/cpeel/sunnymeter/SunnymeterApplication.java
+/home/devops/go/src/github.com/GuilhermeSSantos2004/SunnyMeter/sunnymeter/src/main/java/com/cpeel/sunnymeter/repository/ContratoRepository.java
+/home/devops/go/src/github.com/GuilhermeSSantos2004/SunnyMeter/sunnymeter/src/main/java/com/cpeel/sunnymeter/controller/ClienteController.java
+/home/devops/go/src/github.com/GuilhermeSSantos2004/SunnyMeter/sunnymeter/src/main/java/com/cpeel/sunnymeter/model/Instalacao.java
+/home/devops/go/src/github.com/GuilhermeSSantos2004/SunnyMeter/sunnymeter/src/main/java/com/cpeel/sunnymeter/repository/ClienteRepository.java
+/home/devops/go/src/github.com/GuilhermeSSantos2004/SunnyMeter/sunnymeter/src/main/java/com/cpeel/sunnymeter/repository/InstalacaoRepository.java

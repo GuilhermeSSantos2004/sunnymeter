@@ -1,0 +1,9 @@
+com/cpeel/sunnymeter/repository/InstalacaoRepository.class
+com/cpeel/sunnymeter/controller/ClienteController.class
+com/cpeel/sunnymeter/service/ClienteService.class
+com/cpeel/sunnymeter/SunnymeterApplication.class
+com/cpeel/sunnymeter/model/Cliente.class
+com/cpeel/sunnymeter/model/Instalacao.class
+com/cpeel/sunnymeter/model/Contrato.class
+com/cpeel/sunnymeter/repository/ContratoRepository.class
+com/cpeel/sunnymeter/repository/ClienteRepository.class
