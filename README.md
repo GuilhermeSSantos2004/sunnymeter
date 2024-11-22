@@ -2,18 +2,18 @@
 
 Este projeto fornece uma API REST para gerenciar clientes, instalações, contratos, consumo e produção de energia, utilizando o Spring Boot, Maven e banco de dados MySQL para persistência. A aplicação foi desenvolvida para a concessionária de energia CPEEL, visando otimizar o monitoramento de consumo e a geração distribuída de energia elétrica.
 
-## 🛠️ Integrantes
+## Integrantes
 - **Guilherme Silva dos Santos** - RM551168
 - **Samuel Ramos de Almeida** - RM99134
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 - **Java 17**
 - **Spring Boot 3.x**
 - **Maven 3.x**
 - **MySQL 8.x**
 - **JPA / Hibernate** (para persistência de dados)
 
-## 🚀 Inicialização do Projeto
+## Como executar o Projeto
 
 ### Pré-requisitos
 
